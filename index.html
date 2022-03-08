@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Theovo Úkolníček</title>    
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        rel="stylesheet">
+    </head>
+
+    <body>
+        <main>
+            <header>
+                <div class="done">
+                    <span id="done_counter">00</span>
+                    <p>Tohle všechno jsi zvládl!</p>
+                </div>
+                <div class="not_done">
+                    <span id="not_done_counter">00</span>
+                    <p>Historický počet úkolů.</p>
+                </div>
+            </header>
+    
+            <section class="job_list">
+                <div class="model-job job">
+                    <span class="ticker"></span>
+                    <p>Job</p>
+                    <div>
+                        <span class ="material-icons delete">clear</span>
+                    </div>
+                </div>
+            </section>
+    
+            <section class="new_job">
+                <input type="text" id="job_name" placeholder="Add new job">
+                <div class="button" id="add_button">
+                    <div class="material-icons">post_add</div>
+                </div>
+                
+            </section>
+        </main>
+        
+        <footer>
+            <div class="footer"> <p></p>Nadesignoval a nakódoval Theodor Karel Kut v Zelenči.<p>Vytvořeno na podzim, 2021</p></div>
+        </footer>
+
+        <button class="delete_history">Vymazat historii úkolů<p>AKCE JE NEVRATNÁ</p></button>
+
+        <script src="javascript/main.js"></script>
+    </body>
+</html>
